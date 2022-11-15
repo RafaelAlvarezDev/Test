@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+/* Background */
+body{
+    background-image: url(img/back\ 2.png);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.login_container{ 
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.login_info-container{
+     height: 570px;
+     width: 445px;
+     left: 498px;
+     top: 160px;
+     border-radius: 10px;
+     align-items: center; 
+     text-align: center; 
+     background-color: #313131F2;
+    
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.subtitle{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.social-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.social-login-element{
+    height: 45px;
+    width: 358px;
+    left: 541px;
+    top: 531px;
+    padding-top: 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+}
+.social-login-element:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.social-login-text{
+    
+
+    height: 32px;
+    width: 160px;
+    left: 655px;
+    top: 538px;
+    border-radius: nullpx;
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+.login-lines{
+    
+}
+.login-or{
+    
+left: 49.53%;
+right: 49.5%;
+top: 58.27%;
+bottom: 37.78%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 32px;
+
+
+color: #FFFFFF;
+
+}
